@@ -1,0 +1,38 @@
+#window {
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+  width: inherit;
+  height: inherit;
+}
+
+#window-topbar {
+  height: 20px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  cursor: move;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#window-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#window-close-button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#window-content {
+  overflow: auto;
+  color:black;
+  height: 100%;
+  width: 100%;
+}
